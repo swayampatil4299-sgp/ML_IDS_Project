@@ -1,0 +1,101 @@
+duration,protocol_type,service,flag,src_bytes,dst_bytes,failed_logins,traffic_count,logged_in,label,attack_type
+1,udp,dns,SF,663,228,0,9,0,Normal,Normal
+0,tcp,http,S0,40,0,0,311,0,Intrusion/Attack,SYN Flood
+15,tcp,http,SF,1452,540,0,7,1,Normal,Normal
+5,tcp,ssh,SF,239,1083,0,23,1,Normal,Normal
+58,tcp,http,SF,153,6549,0,20,1,Normal,Normal
+4,tcp,smtp,SF,114,1967,0,4,0,Normal,Normal
+0,tcp,http,S0,40,48,0,315,0,Intrusion/Attack,SYN Flood
+0,tcp,http,SF,2586,3078,0,12,0,Normal,Normal
+18,tcp,smtp,SF,219,1962,1,8,1,Normal,Normal
+6,tcp,ftp,SF,122,471,0,60,1,Normal,Normal
+12,udp,dns,SF,701,864,0,30,0,Normal,Normal
+24,tcp,http,SF,3700,471,0,19,1,Normal,Normal
+18,tcp,smtp,SF,1565,899,0,12,0,Normal,Normal
+0,tcp,http,S0,32,0,0,396,0,Intrusion/Attack,SYN Flood
+6,udp,dns,SF,115,482,0,5,0,Normal,Normal
+0,tcp,http,S0,0,0,0,204,0,Intrusion/Attack,SYN Flood
+21,udp,dns,SF,417,810,0,2,0,Normal,Normal
+0,tcp,smtp,S0,128,0,0,244,0,Intrusion/Attack,SYN Flood
+4,tcp,http,SF,280,4111,0,30,1,Normal,Normal
+35,tcp,ssh,RSTO,513,233,4,28,0,Intrusion/Attack,Brute Force
+2,tcp,smtp,SF,779,5514,0,6,1,Normal,Normal
+7,tcp,http,SF,66,1129,0,5,1,Normal,Normal
+42,tcp,http,SF,55,1459,0,4,1,Normal,Normal
+1,tcp,smtp,SF,724,5873,0,56,1,Normal,Normal
+5,icmp,other,SF,158,4331,0,8,0,Normal,Normal
+0,tcp,http,S0,32,0,0,388,0,Intrusion/Attack,SYN Flood
+23,tcp,http,SF,30,338,0,18,1,Normal,Normal
+46,tcp,http,SF,409,2235,0,3,1,Normal,Normal
+1,tcp,http,RSTO,64,0,0,231,0,Intrusion/Attack,SYN Flood
+37,tcp,http,SF,1669,1567,0,8,1,Normal,Normal
+55,tcp,smtp,SF,38,3184,0,42,1,Normal,Normal
+7,udp,dns,SF,962,4162,0,2,0,Normal,Normal
+6,tcp,ftp,RSTO,747,136,3,29,0,Intrusion/Attack,Brute Force
+3,icmp,other,SF,758,200,0,16,0,Normal,Normal
+25,tcp,ftp,SF,233,43,3,21,0,Intrusion/Attack,Brute Force
+7,tcp,other,SF,1454,753,0,5,0,Normal,Normal
+5,tcp,ssh,REJ,617,384,5,28,0,Intrusion/Attack,Brute Force
+1,tcp,smtp,SF,444,11180,0,35,1,Normal,Normal
+5,tcp,smtp,SF,205,784,0,13,1,Normal,Normal
+4,tcp,http,SF,517,2000,0,3,1,Normal,Normal
+27,tcp,ssh,RSTO,628,381,3,27,0,Intrusion/Attack,Brute Force
+0,tcp,http,S0,32,0,0,235,0,Intrusion/Attack,SYN Flood
+0,tcp,http,S0,32,48,0,352,0,Intrusion/Attack,SYN Flood
+23,tcp,http,SF,274,27,0,7,1,Normal,Normal
+27,tcp,http,SF,287,7418,0,33,1,Normal,Normal
+0,tcp,ssh,REJ,120,0,0,173,0,Intrusion/Attack,Port Scan
+1,udp,dns,REJ,120,0,0,155,0,Intrusion/Attack,Port Scan
+7,tcp,http,SF,47,4653,0,11,1,Normal,Normal
+16,tcp,smtp,SF,695,5367,0,5,1,Normal,Normal
+26,tcp,ftp,SF,3836,1992,0,9,1,Normal,Normal
+93,udp,dns,SF,711,2528,0,10,0,Normal,Normal
+0,icmp,telnet,S0,120,0,0,79,0,Intrusion/Attack,Port Scan
+2,icmp,telnet,REJ,20,20,0,307,0,Intrusion/Attack,Port Scan
+1,tcp,http,SF,530,1903,0,58,1,Normal,Normal
+25,icmp,other,SF,134,2873,0,95,0,Normal,Normal
+15,tcp,http,SF,754,1550,0,50,1,Normal,Normal
+0,tcp,http,SF,54,421,0,1,0,Normal,Normal
+1,tcp,http,SF,31,10899,0,22,1,Normal,Normal
+2,tcp,smtp,SF,272,540,0,1,1,Normal,Normal
+25,tcp,ftp,SF,461,321,4,32,0,Intrusion/Attack,Brute Force
+8,tcp,http,SF,30,3,0,1,1,Normal,Normal
+7,tcp,http,SF,2155,2770,0,9,1,Normal,Normal
+20,tcp,http,SF,71,7679,0,1,1,Normal,Normal
+1,udp,smtp,RSTR,60,0,0,193,0,Intrusion/Attack,Port Scan
+3,udp,dns,SF,30,229,0,2,0,Normal,Normal
+1,tcp,http,SF,921,408,0,41,1,Normal,Normal
+0,tcp,http,S0,128,0,0,249,0,Intrusion/Attack,SYN Flood
+26,icmp,other,SF,44,1241,0,12,0,Normal,Normal
+6,tcp,http,SF,674,3230,0,7,1,Normal,Normal
+5,tcp,http,REJ,161,1963,0,31,1,Normal,Normal
+10,tcp,ftp,REJ,538,428,5,38,0,Intrusion/Attack,Brute Force
+4,udp,dns,SF,977,1010,0,29,0,Normal,Normal
+0,udp,ftp,SH,120,0,0,260,0,Intrusion/Attack,Port Scan
+0,tcp,http,S0,0,0,0,354,0,Intrusion/Attack,SYN Flood
+10,tcp,ssh,SF,580,4912,0,50,1,Normal,Normal
+27,tcp,http,SF,30,3662,0,45,1,Normal,Normal
+58,tcp,http,SF,596,310,0,20,1,Normal,Normal
+27,udp,other,SF,1652,1614,0,1,0,Normal,Normal
+11,tcp,ssh,SF,780,125,3,25,0,Intrusion/Attack,Brute Force
+10,tcp,http,SF,118,7680,0,9,1,Normal,Normal
+0,tcp,other,REJ,32,0,0,467,0,Intrusion/Attack,SYN Flood
+0,tcp,smtp,SF,120,362,0,1,1,Normal,Normal
+5,tcp,other,SF,130,5722,0,3,0,Normal,Normal
+0,tcp,smtp,SF,585,4118,0,18,1,Normal,Normal
+37,tcp,ftp,SF,532,152,2,32,0,Intrusion/Attack,Brute Force
+3,tcp,http,SF,2272,2861,0,11,1,Normal,Normal
+0,tcp,http,S0,0,0,0,282,0,Intrusion/Attack,SYN Flood
+0,tcp,ssh,S0,0,0,0,303,0,Intrusion/Attack,SYN Flood
+10,tcp,smtp,SF,266,3524,0,13,1,Normal,Normal
+1,tcp,smtp,REJ,44,0,0,114,0,Intrusion/Attack,Port Scan
+0,udp,dns,SF,840,2091,0,22,0,Normal,Normal
+12,tcp,http,SF,94,1583,0,44,1,Normal,Normal
+1,tcp,smtp,SF,952,4179,0,12,1,Normal,Normal
+39,tcp,ftp,SF,254,149,4,32,0,Intrusion/Attack,Brute Force
+1,tcp,http,SF,354,162,0,33,1,Normal,Normal
+2,udp,http,SH,60,0,0,157,0,Intrusion/Attack,Port Scan
+0,tcp,other,S0,128,0,0,345,0,Intrusion/Attack,SYN Flood
+2,udp,http,S0,44,20,0,255,0,Intrusion/Attack,Port Scan
+1,tcp,ssh,REJ,20,0,0,138,0,Intrusion/Attack,Port Scan
+11,tcp,http,SF,105,1383,0,11,1,Normal,Normal
