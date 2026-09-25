@@ -1,0 +1,27 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Trained Model (large file - optional to exclude)
+# models/ids_model_payload.joblib
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# macOS system files
+.DS_Store
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Streamlit secrets & config (keep config.toml if you have custom settings)
+.streamlit/secrets.toml
